@@ -1,14 +1,7 @@
-/* PINOUT
- *  Fingerprint Sensor      Arduino
- *  Vcc(red)----------------> 5v
- *  Gnd(Black)--------------> Gnd
- *  Tx(green)---------------> Pin 2
- *  Rx(white)---------------> Pin 3
- */
 #include <Adafruit_Fingerprint.h>
 int electronic_lock = 12; 
-// pin #2 is IN from sensor (GREEN wire)
-// pin #3 is OUT from arduino  (WHITE wire)
+// pin #2 is IN from sensor 
+// pin #3 is OUT from arduino  
 SoftwareSerial mySerial(2, 3);// Tx, Rx
 
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
