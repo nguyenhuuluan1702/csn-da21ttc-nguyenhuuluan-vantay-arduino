@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # csn-da21ttc-nguyenhuuluan-vantay-arduino
 
 # Đề tài: Xây Dựng Ứng Dụng Nhận Dạng Vân Tay
@@ -21,3 +22,6 @@
 # Tuần 3: Hoàn thiện mô hình và viết báo cáo
 
 # Tuần 4: Thiết kế silde và poster cho đồ án
+=======
+# csn-da21ttc-nguyenhuuluan-vantay-arduino
+>>>>>>> 44dbc38b4a00c38b5bf2db4bec629649898a7454
